@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SomParts - Order Parts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" href="images/favicon.png"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-content">
+      <h1>SomParts</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="booking.html" class="active">Order</a></li>
+          <li><a href="help.html">Help</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 3rem 0;">
+    <section class="hero-content">
+      <h2>Order Spare Parts</h2>
+      <p>Fill in the form below to request your parts — we’ll get back to you shortly.</p>
+    </section>
+
+    <form action="#" method="post" class="order-form">
+      <fieldset>
+        <legend>Contact Information</legend>
+
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" placeholder="e.g. +252..." required />
+      </fieldset>
+
+      <fieldset>
+        <legend>Order Details</legend>
+
+        <label for="car-model">Car Model *</label>
+        <input type="text" id="car-model" name="car-model" placeholder="e.g. Toyota Corolla" required />
+
+        <label for="part-type">Part Type *</label>
+        <select id="part-type" name="part-type" required>
+          <option value="">-- Choose a part --</option>
+          <option value="Oil Filter">Oil Filter</option>
+          <option value="Brake Pads">Brake Pads</option>
+          <option value="Spark Plug">Spark Plug</option>
+          <option value="Battery">Battery</option>
+          <option value="Tire">Tire</option>
+          <option value="Headlight">Headlight</option>
+        </select>
+
+        <label for="quantity">Quantity *</label>
+        <input type="number" id="quantity" name="quantity" min="1" placeholder="1" required />
+
+        <fieldset class="inline-fieldset">
+          <legend>Delivery Option *</legend>
+          <label><input type="radio" name="delivery" value="pickup" required /> Pickup</label>
+          <label><input type="radio" name="delivery" value="delivery" required /> Home Delivery</label>
+        </fieldset>
+
+        <label for="instructions">Special Instructions</label>
+        <textarea id="instructions" name="instructions" rows="4" placeholder="Any additional info..."></textarea>
+      </fieldset>
+
+      <button type="submit" class="btn">Submit Order</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 SomParts. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
