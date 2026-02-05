@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services - Digital Finance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="services.html">Services</a> |
+    <a href="signup.html">Signup</a> |
+    <a href="login.html">Login</a> |
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<div class="container">
+    <h1>Our Services</h1>
+    <p>Digital Finance App wuxuu bixiyaa adeegyada soo socda:</p>
+
+    <div class="service-box">
+        <h3>💰 Income Tracking</h3>
+        <p>
+            Ku dar oo la soco dakhligaaga si fudud.
+            Waxaad arki kartaa inta aad kasbatay mar kasta.
+        </p>
+    </div>
+
+    <div class="service-box">
+        <h3>💸 Expense Management</h3>
+        <p>
+            Diiwaangeli kharashaadkaaga si aad u ogaato
+            halka lacagtaadu ku baxeyso.
+        </p>
+    </div>
+
+    <div class="service-box">
+        <h3>📊 Balance Calculation</h3>
+        <p>
+            App-ku si toos ah ayuu kuu xisaabinayaa
+            Balance-kaaga (Income − Expense).
+        </p>
+    </div>
+
+    <div class="service-box">
+        <h3>🗂 Transaction History</h3>
+        <p>
+            Dhamaan transactions-ka aad geliso
+            waxaa lagu soo bandhigayaa liis.
+        </p>
+    </div>
+
+    <div class="service-box">
+        <h3>🔒 Secure Login</h3>
+        <p>
+            Isticmaalaha waa inuu marka hore
+            galaa Signup & Login si uu u isticmaalo app-ka.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
